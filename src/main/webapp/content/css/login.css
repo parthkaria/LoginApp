@@ -1,0 +1,22 @@
+
+@media screen and (max-device-width: 768px) {
+  #textcontent{display:none;}
+}
+
+@media (min-width: 800px) {
+  body { background: url(/BookingSystem/static/img/integrate.jpg) #000 no-repeat center center fixed !important; }
+  #bgvid { display: block; }
+}
+ .backImage{
+   background: url(../images/integrate.jpg) #000 no-repeat center center fixed !important;
+ }
+ 
+ .reg-btn{
+		margin-left: 20%;
+		padding: 5px 8px;
+	}
+	
+	.hometext{
+		color:white;
+		margin-left:15%;
+	}

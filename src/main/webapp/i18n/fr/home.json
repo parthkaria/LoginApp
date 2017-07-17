@@ -1,0 +1,11 @@
+{
+    "home": {
+        "title": "Bienvenue!",
+        "subtitle": "Ceci est votre page d'accueil",
+        "logged": {
+            "message": "Vous êtes connecté en tant que \"{{username}}\"."
+        },
+         "findme" : "Me trouver sur <a href=\"https://www.upwork.com/fl/parthkaria\">upwork!</a>",
+        "github": "GitHub "
+    }
+}

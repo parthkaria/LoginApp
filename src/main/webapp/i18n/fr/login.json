@@ -1,0 +1,22 @@
+{
+    "login": {
+        "title": "Authentification",
+        "form": {
+            "password": "Mot de passe",
+            "password.placeholder": "Mot de passe",
+            "rememberme": "Garder la session ouverte",
+            "button": "Connexion"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>Erreur d'authentification !</strong> Veuillez v√©rifier vos identifiants de connexion."
+            }
+        },
+        "password" : {
+            "forgot": "Avez-vous oubli√© votre mot de passe ?"
+        },
+        "signinfail": "<strong>…chec de la connexion!</strong> VÈrifiez vos informations d'identification et rÈessayez.",
+        "regnow" : "Inscrire maintenant",
+        "noacnt" : "Vous n'avez pas encore de compte?"
+    }
+}

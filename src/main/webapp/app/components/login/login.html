@@ -1,0 +1,45 @@
+
+    <div class="loginColumns animated fadeInDown" id="loginDiv">
+        <div class="row">
+ <div class="col-md-3" id="textcontent">
+                      </div>
+            <div class="col-md-6">
+                <div class="ibox-content" style="opacity: 0.9;">
+                   
+                 <form class="form" role="form" ng-submit="vm.login($event)">
+				   <br>
+					   <div class="form-group">
+					 		 <img src="../../../content/images/kLogo.png" width="100%"> 
+					   </div>  
+					    <div class="alert alert-danger" ng-show="vm.authenticationError" data-translate="login.signinfail">
+			            </div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="ssoId" required="" value="" placeholder="{{'global.form.username.placeholder' | translate}}" ng-model="vm.username">
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" name="password" required="" value="" placeholder="{{'login.form.password.placeholder' | translate}}"  ng-model="vm.password">
+									</div>
+									<div class="form-group">
+					                        <input type="checkbox" id="rememberMe" ng-model="vm.rememberMe" checked>
+					                        <span data-translate="login.form.rememberme"></span>
+					                </div>
+									<button type="submit" class="btn btn-primary block full-width m-b agility-fieldtech" data-translate="login.form.button"></button>
+                    <br>
+                    </form>
+                    <div class="alert alert-warning">
+		                <a class="alert-link" href="" ng-click="vm.requestResetPassword()"><span data-translate="login.password.forgot"></span></a>
+		            </div>
+                    <div class="alert alert-warning">
+		                <span data-translate="login.noacnt"></span> <a class="alert-link" href="" ng-click="vm.register()"><span data-translate="login.regnow"></span></a>
+		            </div>
+                    <p class="m-t">
+<!--                         <small>BookAppy &copy; 2017</small> -->
+                    </p>
+                </div>
+            </div>
+          <div class="col-md-3" id="textcontent">
+                      </div>
+        </div>
+
+    </div>
+
