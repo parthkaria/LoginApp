@@ -7,5 +7,4 @@ Application includes:
    3) Remember me functionality
    4) Forgot password
    5) Multi-language support
-   
-Purpose of the application is to demonstrate the coding standards and standard practices.
+  
